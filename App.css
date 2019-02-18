@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Text-center {
+  text-align: center;
+  left: 50%;
+}
+.mhklogo{
+  height: 80px;
+  /* width: 100%; */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+
+}
+.header {
+  margin-top: 4px;
+  background-color: #e2ecef;
+  height: 215px;
+  border-radius: 5px;
+}
+
+.m-t {
+  padding-top: 20px;
+}
+
+.bg-color {
+   background-color: #acb8c3;
+   height: 100px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.submit-spacing  {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 35px;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #a9b8c4;
+}
